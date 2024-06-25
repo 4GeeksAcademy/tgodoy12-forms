@@ -40,11 +40,9 @@
                         <label for="amount" class="form-label">Amount</label>
                         <div class="input-group mb-3">                       
                             <span class="input-group-text">$</span>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="amount">
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="amount" placeholder="Amount">
                         </div>
                     </div>
-                
-                      
                     <!-- end first row -->
 
                     <!-- second row -->
@@ -66,7 +64,7 @@
                     <div class="col-md-3">
                       <label for="inputState" class="form-label">State</label>
                       <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
+                        <option selected>Pick a state</option>
                         <option>...</option>
                       </select>
                     </div>
@@ -76,13 +74,12 @@
                     </div>
                     <!-- end third row -->
 
-                    <!-- fourth row -->
-                    
+                    <!-- fourth row -->        
                     <div class="col-4">
                         <label for="credit-card">We accept:</label> <br>
 
-                        <div class="bg-secondary rounded">
-                            <div class="form-check form-check-inline ms-4" id="credit-card">
+                        <div class="bg-secondary rounded ps-4">
+                            <div class="form-check form-check-inline" id="credit-card">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
                                 <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-visa" style="color: #ffffff;"></i></label>
                             </div>
@@ -100,10 +97,11 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end fourth row -->
+                    
 
                     <div class="col-2"></div>
 
+                    <!-- textarea -->
                     <div class="col-6">
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
@@ -112,23 +110,25 @@
                                 Add any notes here
                               </div>
                         </div>
-                        
                     </div>
+                    <!-- end textarea -->
+                    <!-- end fourth row -->
 
                   </form>
                 <!-- end form -->
-
             </div>
+
+            <!-- footer card -->
             <div class="card-footer text-body-secondary d-flex justify-content-end">
                 <button type="submit" class="btn btn-secondary me-2">Cancel</button>
                 <button type="submit" class="btn btn-primary">Send</button>
             </div>
+            <!-- end footer card -->
+
           </div>
-        <!-- end card -->
+          <!-- end card -->
 
     </div>
-
-
 
 
 
